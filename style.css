@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+
+    margin: 13px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+button{
+    color: #d6d3d3;
+    background: none;
+    cursor: pointer;
+    float: right;
+    border: none;
+    top: auto;
+    outline: none;
+}
+
+button.xis{
+    color: rgb(236, 34, 34);
+}
+
+span#listinha{
+    color: #F66568;
+}
+
+li{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 24px;
+    /* Shadow */ 
+    box-shadow: 0px 10px 20px #0000000a, 0px 2px 6px #0000000a, 0px 0px 1px #0000000a;
+    border-radius: 16px;
+    margin: 24px 0px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+body{
+    max-width: 700px;
+    margin: 5px auto;
+}
+input:focus-visible{
+    border-radius: 5px;
+    border: 2px solid #543FD3;
+    caret-color: #543FD3;
+    color: rgba(84, 63, 211, 0.58);
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    outline: none;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid #543FD3;
+    caret-color: #543FD3;
+    padding: 2px;
+    color: rgba(84, 63, 211, 0.58);
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    width: 200px;
+    height: 30px;
+}
+input::placeholder{
+    color: rgba(84, 63, 211, 0.58);
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    width: 200px;
+height: 30px;
+
+right: 49.67%;
+
+}
+label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin-right: 15px;
+}
